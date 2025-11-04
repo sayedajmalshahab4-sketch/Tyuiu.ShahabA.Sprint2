@@ -1,7 +1,7 @@
 ﻿using System;
-using Tyuiu.ShahabA.Sprint2.Task2.V25.Lib;
+using Tyuiu.ShahabA.Sprint2.Task2.V6.Lib;
 
-namespace Tyuiu.ShahabA.Sprint2.Task2.V25
+namespace Tyuiu.ShahabA.Sprint2.Task2.V6
 {
     class Program
     {
@@ -13,10 +13,10 @@ namespace Tyuiu.ShahabA.Sprint2.Task2.V25
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("*************************");
 
-            Console.Write("Введите координату X: ");
+            Console.Write("Введите X: ");
             int x = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Введите координату Y: ");
+            Console.Write("Введите Y: ");
             int y = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine();
@@ -24,15 +24,15 @@ namespace Tyuiu.ShahabA.Sprint2.Task2.V25
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("*************************");
 
-            bool inArea = ds.CheckDotInShadedArea(x, y);
+            bool result = ds.CheckDotInShadedArea(x, y);
 
-            if (inArea)
+            if (result)
             {
-                Console.WriteLine($"Точка ({x}, {y}) находится в заштрихованной области");
+                Console.WriteLine("Точка находится в заштрихованной области");
             }
             else
             {
-                Console.WriteLine($"Точка ({x}, {y}) НЕ находится в заштрихованной области");
+                Console.WriteLine("Точка не находится в заштрихованной области");
             }
 
             Console.ReadKey();
