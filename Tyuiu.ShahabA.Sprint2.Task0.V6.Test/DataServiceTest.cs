@@ -7,7 +7,7 @@ namespace Tyuiu.ShahabAJ.Sprint2.Task0.V6.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetCompareOperations()
+        public void validGetCompareOperations()
         {
             DataService ds = new DataService();
             int x = 107;
