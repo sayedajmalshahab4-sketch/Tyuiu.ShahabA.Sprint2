@@ -1,8 +1,9 @@
 ﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.ShahabA.Sprint2.Task1.V30.Lib
 {
-    public class DataService
+    public class DataService : ISprint2Task1V30
     {
         public bool[] GetLogicOperations(int a, int b, int c, int d)
         {
