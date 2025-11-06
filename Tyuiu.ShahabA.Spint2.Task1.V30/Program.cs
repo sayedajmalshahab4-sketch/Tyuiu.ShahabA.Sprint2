@@ -9,9 +9,9 @@ namespace Tyuiu.ShahabA.Sprint2.Task1.V30
         {
             DataService ds = new DataService();
 
-            Console.WriteLine("*************************");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
-            Console.WriteLine("*************************");
+            Console.WriteLine("***************************************************************************");
 
             int a = 657;
             int b = 874;
@@ -24,9 +24,9 @@ namespace Tyuiu.ShahabA.Sprint2.Task1.V30
             Console.WriteLine($"D = {d}");
 
             Console.WriteLine();
-            Console.WriteLine("*************************");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
-            Console.WriteLine("*************************");
+            Console.WriteLine("***************************************************************************");
 
             bool[] results = ds.GetLogicOperations(a, b, c, d);
 
