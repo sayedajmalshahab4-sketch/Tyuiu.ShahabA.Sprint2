@@ -1,5 +1,5 @@
 ﻿using System;
-using tyuiu.cources.programming.interfaces.Sprint2;
+
 
 namespace Tyuiu.ShahabAJ.Sprint2.Task0.V6.Lib
 {
